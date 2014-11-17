@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+        <link rel="stylesheet" href="/vendor/normalize.css/normalize.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/vendor/Hover/hover.css"><link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/vendor/textillate/assets/animate.css"><link rel="icon" href="/img/favicon.ico">
+    <script src="/vendor/jquery/jquery.js"></script>
+    <script src="/vendor/jquery-color/jquery.color.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/vendor/physicsjs/physicsjs-full-0.6.0.js"></script>
+    <script src="/vendor/textillate/assets/jquery.lettering.js"></script>
+    <script src="/vendor/textillate/jquery.textillate.js"></script>
+    <script src="/vendor/typed-js/typed.js"></script>
+    <title>Alkemy</title>
+    <script>(
+      function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;
+                              i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+                              a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;
+                              a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                              ga('create', 'UA-43864736-9', 'auto');
+                              ga('send', 'pageview');</script>
+  </head>
+  <body>
+    <div class="flex container-cloud">
+      <div class="rainy-weather">
+        <canvas id="viewport"></canvas>
+      </div>
+    </div>
+    <div class="flex content">
+      <a id="cloud-logo" href="mailto:info@alkemy.io">
+        <img src="/img/cloud-logo.png" title="Contact us!" target="_blank" class="hover">
+      </a>
+      <div class="words">
+        <span class="type">We will change the way information is transferred.</span>
+      </div>
+      <div class="container">
+        <div class="container-text">
+          <input type="text" placeholder="Email Signup for Early Access" name="email" class="item">
+          <div id="thanks" class="flex-center item">
+            <span>Thanks for signing up!</span>
+          </div>
+        </div>
+        <div class="item checkboxes flex-row">
+          <label title="Interested in the iOS app?" class="choice">
+            <input type="checkbox" name="ios" value="ios">
+            <span class="flex-center">
+              <i class="fa fa-apple"></i>
+            </span>
+          </label>
+          <label title="Interested in the Android app?" class="choice">
+            <input type="checkbox" name="android" value="android">
+            <span class="flex-center">
+              <i class="fa fa-android"></i>
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
+  <scripts>
+  </scripts>
+</html>
